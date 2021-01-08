@@ -7,6 +7,9 @@ tell application "System Events"
 		tell soundMenu to click
 		
 		-- Select specified output
+		repeat until exists checkbox 1 of scroll area 1 of group 1 of window "Control Center" whose title is equal to soundOutputName
+		end repeat
+		
 		set soundCheckbox to checkbox 1 of scroll area 1 of group 1 of window "Control Center" whose title is equal to soundOutputName
 		tell soundCheckbox to click
 		
@@ -14,4 +17,3 @@ tell application "System Events"
 		tell soundMenu to click
 	end tell
 end tell
-
