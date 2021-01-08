@@ -4,7 +4,7 @@ Sets sound to specified output via keyboard shortcut.
 
 ## Setup
 
-1. Download and open the [Set Sound Output.scpt](Set%20Sound%20Output.scpt) file with Script Editor
+1. Download and open the [Set Sound Output.applescript](Set%20Sound%20Output.applescript) file with Script Editor
 1. Edit the script's `soundOutputName` variable to match the output devise name of your choice
 1. Export the script as an application
    - Open File > Export > Change File Format to `Application` > Save
